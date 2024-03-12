@@ -1,8 +1,11 @@
 {
+  "homepage": "https://zhyrol.github.io/zhyrol.design",
   "name": "tidy-react",
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -18,7 +21,9 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
     "autoprefixer": "^10.4.2",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.5",
+    "push-dir": "^0.4.1",
     "sass": "^1.49.0",
     "tailwindcss": "^3.0.15",
     "vite": "^2.7.2"

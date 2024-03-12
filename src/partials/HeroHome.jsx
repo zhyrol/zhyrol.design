@@ -25,13 +25,9 @@ function HeroHome() {
                 <h1 className="h1 font-playfair-display text-slate-100 mb-4">Create stunning web experiences</h1>
                 <p className="text-xl text-slate-400 mb-8">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                  
                   <div>
-                    <Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group" to="/request-demo">
-                      Request Demo <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link className="btn text-white bg-slate-700 hover:bg-slate-800 w-full" to="#0">Explore Product</Link>
+                    <Link className="btn text-white bg-slate-700 hover:bg-slate-800 w-full" to="#0">Explore My Design</Link>
                   </div>
                 </div>
               </div>
