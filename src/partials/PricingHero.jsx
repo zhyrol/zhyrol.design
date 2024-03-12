@@ -15,7 +15,7 @@ function PricingHero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h1 className="h1 font-playfair-display text-slate-100">Find the right plan for your business</h1>
+            <h1 className="h1 font-playfair-display text-slate-100"></h1>
           </div>
 
           {/* Pricing tables */}
